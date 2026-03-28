@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "Railway": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@railway/mcp-server"]
+    },
+    "microsoft/playwright-mcp": {
+      "type": "http",
+      "url": "http://host.docker.internal:8931/mcp",
+      "gallery": "https://api.mcp.github.com",
+      "version": "0.0.1-seed"
+    },
+    "exa": {
+      "url": "https://mcp.exa.ai/mcp"
+    },
+    "serpapi": {
+      "url": "https://mcp.serpapi.com/1d12e0ef6edc20ed2bbea77f7d5c0bccfeb08ca02b106056e56a384a6bc09ad2/mcp"
+    }
+  },
+  "inputs": []
+}
